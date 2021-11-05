@@ -2,11 +2,7 @@ import './App.scss';
 import ArticleList from './components/ArticleList/ArticleList';
 
 function App() {
-  
-
-  return (
-    <ArticleList />
-  );
+  return <ArticleList />;
 }
 
 export default App;

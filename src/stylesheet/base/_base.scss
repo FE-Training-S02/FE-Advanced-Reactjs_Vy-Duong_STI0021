@@ -1,26 +1,26 @@
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 html {
-	font-size: 62.5%;
-	font-family: $font-body;
+  font-size: 62.5%;
+  font-family: $font-body;
 }
 body {
-	font-size: map-get($font-size, sm);
+  font-size: map-get($font-size, sm);
 }
 a {
-	text-decoration: none;
-	color: map-get($color, white);
-	cursor: pointer;
+  text-decoration: none;
+  color: map-get($color, white);
+  cursor: pointer;
 }
 li {
-	display: inline;
+  display: inline;
 }
 h3 {
-	font-size: map-get($font-size, normal);
+  font-size: map-get($font-size, normal);
 }
 p {
-	font-size: map-get($font-size, xxs);
+  font-size: map-get($font-size, xxs);
 }
