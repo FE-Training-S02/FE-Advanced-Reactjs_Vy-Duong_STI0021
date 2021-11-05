@@ -1,4 +1,4 @@
-interface Article {
+interface IArticle {
   id: number;
   title: string;
   content: string;
@@ -8,4 +8,4 @@ interface Article {
   picture: string;
 }
 
-export default Article;
+export default IArticle;

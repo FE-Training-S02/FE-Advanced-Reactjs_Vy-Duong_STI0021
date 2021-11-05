@@ -1,11 +1,10 @@
 $color: (
-	white: #FFFFFF,
+	white: #ffffff,
 	black: #000000,
 	red: #ca6a66,
 	grey-a: #eceaea,
 	grey-b: #96a1aa,
 	grey-c: #b4b8bd,
-
 );
 $font-size: (
 	xxxs: 1rem,
@@ -16,18 +15,18 @@ $font-size: (
 	lg: 1.8rem,
 	xl: 2.4rem,
 	xxl: 3.2rem,
-	xxxl: 7.2rem
+	xxxl: 7.2rem,
 );
 $font-weight: (
 	regular: 300,
 	medium: 400,
-	bold: 700
+	bold: 700,
 );
 $breakpoints: (
 	sm: 575.98px,
 	md: 767.98px,
 	lg: 991.98px,
 	xl: 1199.98px,
-	xxl: 1399.98px
+	xxl: 1399.98px,
 );
-$font-body: 'Segoe UI', 'Roboto', 'Oxygen';
+$font-body: "Segoe UI", "Roboto", "Oxygen";
