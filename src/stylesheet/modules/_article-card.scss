@@ -1,0 +1,41 @@
+.new-card {
+  display: flex;
+  background-color: map-get($color, white);
+  height: 200px;
+  padding: 1rem;
+  .new-card-img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+  }
+  .new-card-body {
+    max-height: max-content;
+    padding: 0 10px;
+    .new-card-category {
+      color: map-get($color, red);
+      padding-bottom: 1rem;
+      font-weight: bold;
+    }
+    .new-card-title {
+      font-weight: bold;
+      padding-bottom: 1rem;
+    }
+    .new-card-content {
+      color: map-get($color, grey-b);
+      font-size: map-get($font-size, sm);
+      padding-bottom: 2rem;
+      min-height: 76px;
+      overflow: hidden;
+    }
+  }
+  .new-card-info {
+    display: flex;
+    gap: 20px;
+    text-transform: uppercase;
+    color: map-get($color, grey-c);
+    .new-card-author {
+      color: map-get($color, black);
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: map-get($color, grey-a);
+}
+.row {
+  margin: -1rem 0;
+}
+.col {
+  padding: 1rem 0;
+}
+@for $i from 1 through 12 {
+  .col-md-#{$i} {
+    @include col-width($i);
+  }
+}

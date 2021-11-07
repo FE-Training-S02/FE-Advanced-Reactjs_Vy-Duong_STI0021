@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "title": "Senate confirmation votes build out Biden's Justice Department leadership team",
+    "content": "President Joe Biden saw the number of Senate-confirmed members of his Justice Department leadership team nearly double Thursday, with the upper chamber approving four nominees to critical positions.",
+    "category": "Politic",
+    "author": "Tierney Sneed",
+    "createdDate": "15/09/2020 07:00 EST",
+    "picture": "politic_news.jpg"
+  },
+  {
+    "id": "2",
+    "title": "New Zealand's lockdowns have been a disaster for some. As they lift, another threat looms",
+    "content": "CHRISTCHURCH, New Zealand — On Saturday, New Zealand reported its highest number of new coronavirus cases in a single day: 160.",
+    "category": "Health",
+    "author": "Emanuel Stoakes",
+    "createdDate": "17/09/2020 08:00 EST",
+    "picture": "health_news.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Facebook goes Meta: Zuckerberg announces new corporate name",
+    "content": "CEO Mark Zuckerberg announced the change Thursday, saying he wanted a new brand and a clearer corporate naming scheme to help focus on what's next for the internet beyond social media.",
+    "category": "Technology",
+    "author": "David Ingram",
+    "createdDate": "28/10/2021 07:00 EST",
+    "picture": "tech_news.jpg"
+  },
+  {
+    "id": "4",
+    "title": "India cricket captain Virat Kohli slams 'spineless' trolls after social media abuse targeting team's bowler",
+    "content": "India cricket captain Virat Kohli has criticized the spineless people on social media who attacked the team's bowler Mohammed Shami over his religion following the team's loss to Pakistan in a T20 World Cup match.",
+    "category": "Sports",
+    "author": "Jeevan Ravindran",
+    "createdDate": "31/12/2021 09:00 EST",
+    "picture": "sports_news.jpg"
+  }
+]
