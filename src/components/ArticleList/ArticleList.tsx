@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import IArticle from '../../shared/modules/article';
-import Article from '../Article/Article';
+import Article from '../../shared/models/article';
+import ArticleItem from '../ArticleItem/ArticleItem';
 
 const ArticleList = () => {
   const [data, setData] = useState([]);
@@ -19,11 +19,13 @@ const ArticleList = () => {
   }, []);
 
   return (
-    <ul className='row'>
-      {data.map((item: IArticle) => (
-        <Article key={item.id} item={item} />
+  <div className="container">
+    <ul className="row">
+      {data.map((item: Article) => (
+        <ArticleItem key={item.id} item={item} />
       ))}
     </ul>
+  </div>
   );
 };
 
